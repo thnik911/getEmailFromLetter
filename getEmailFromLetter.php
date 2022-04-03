@@ -8,8 +8,6 @@ writetolog($_REQUEST, 'new request');
 
 $lead = $_REQUEST['lead'];
 
-//https://port.pinall.ru/local/nikita/oldis/get_act1.php
-
 //AUTH Б24
 require_once('auth.php');
 
