@@ -10,7 +10,7 @@
 **Как запустить:**
 
 1. getEmailFromLetter.php и auth.php необходимо разместить на хостинге с поддержкой SSL.
-2. В разделе "Разработчикам" необходимо создать входящий вебхук с правами на CRM (crm). Подробнее как создать входящий / исходящий вебхук: https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=99&LESSON_ID=8581&LESSON_PATH=8771.8583.8581
+2. В разделе "Разработчикам" необходимо создать входящий вебхук с правами на CRM (crm) и Бизнес-процессы (bizproc). Подробнее как создать входящий / исходящий вебхук: https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=99&LESSON_ID=8581&LESSON_PATH=8771.8583.8581
 3. Полученный "Вебхук для вызова rest api" прописать в auth.php.
 4. В строке 110 скрипта duplicate.php в 'TEMPLATE_ID' необходимо указать ID бизнес-процесса, который необходимо запустить для дальнейшей отработки лида
 5. Делаем POST запрос посредством конструкции Webhook* через робот, или бизнес-процессом: https://yourdomain.com/path/getEmailFromLetter.php?lead=123
