@@ -10,7 +10,7 @@
 **Как запустить:**
 
 1. getEmailFromLetter.php и auth.php необходимо разместить на хостинге с поддержкой SSL.
-2. В разделе "Разработчикам" необходимо создать входящий вебхук с правами на CRM (crm) и Бизнес-процессы (bizproc). Подробнее как создать входящий / исходящий вебхук: https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=99&LESSON_ID=8581&LESSON_PATH=8771.8583.8581
+2. В разделе "Разработчикам" необходимо создать входящий вебхук с правами на CRM (crm) и Бизнес-процессы (bizproc). Подробнее как создать входящий / исходящий вебхук: [Ссылки на документацию 1С-Битрикс](https://github.com/thnik911/getEmailFromLetter/blob/main/README.md#%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8-%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8E-1%D1%81-%D0%B1%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81)
 3. Полученный "Вебхук для вызова rest api" прописать в auth.php.
 4. В строке 110 скрипта duplicate.php в 'TEMPLATE_ID' необходимо указать ID бизнес-процесса, который необходимо запустить для дальнейшей отработки лида
 5. Делаем POST запрос посредством конструкции Webhook* через робот, или бизнес-процессом: https://yourdomain.com/path/getEmailFromLetter.php?lead=123
@@ -23,5 +23,11 @@ path - путь до скрипта.
 
 lead - ID лида.
 
+### Ссылки на документацию 1С-Битрикс 
 
-*Подробнее о действии Webhook: https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=57&LESSON_ID=8551
+<details><summary>Развернуть список</summary>
+
+1. Действие Webhook внутри Бизнес-процесса / робота https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=57&LESSON_ID=8551
+2. Как создать Webhook https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=99&LESSON_ID=8581&LESSON_PATH=8771.8583.8581
+
+</details>
