@@ -19,7 +19,7 @@
 
 **Переменные передаваемые в POST запросе:**
 
-yourdomain.com - адрес сайта, на котором размещены скрипты auth.php и duplicate.php с поддержкой SSL.
+yourdomain.com - адрес сайта, на котором размещены скрипты auth.php и getEmailFromLetter.php с поддержкой SSL.
 
 path - путь до скрипта.
 
